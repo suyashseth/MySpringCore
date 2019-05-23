@@ -12,6 +12,9 @@ public class Test {
 		
 		Wolf w = ctx.getBean(Wolf.class);
 		
+		Dragon d = ctx.getBean(Dragon.class);
+		
+		System.out.println(d);
 		System.out.println(f);
 		System.out.println(w);
 		
