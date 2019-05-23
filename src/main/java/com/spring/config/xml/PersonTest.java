@@ -9,11 +9,11 @@ public class PersonTest {
 		
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("PersonConfig.xml");
 		
-		/*
-		 * Person p = ctx.getBean(Person.class);
-		 * 
-		 * p.getJob().doJob();
-		 */
+		
+		  Person p = ctx.getBean(Person.class);
+		  
+		  p.getJob().doJob();
+		 System.out.println(p);
 		String []names = ctx.getBeanDefinitionNames();
 		
 		for(String name:names)

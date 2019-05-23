@@ -9,6 +9,8 @@
 	<configs>
 		<config>src/main/resources/PersonConfig.xml</config>
 		<config>src/main/resources/LionConfig.xml</config>
+		<config>src/main/resources/TigerConfig.xml</config>
+		<config>src/main/resources/MonkeyConfig.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

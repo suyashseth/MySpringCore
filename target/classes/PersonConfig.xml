@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean  class="com.spring.config.xml.Person" init-method="myCustomInitMethod" 
-        destroy-method="myCustomDestroyMethod">
-        <property name="id" value="101"></property>
-        <property name="name" value="Rahul"></property>
-        <property name="job" ref="developer"></property>
+        destroy-method="myCustomDestroyMethod" p:name="Suraksha G" p:id="1001" p:job-ref="developer">
     </bean>
     
     <bean id="developer" class="com.spring.config.xml.SoftwareDeveloper"></bean>
