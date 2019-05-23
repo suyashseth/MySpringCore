@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <import resource="FoxConfig.xml"/>
-	<bean id="dragon" class="com.spring.config.mix.Dragon">
-		<property name="name" value="toothless"></property>
-		<property name="color" value="grey"></property>
-	</bean>
 
+
+    <bean id="fox" class="com.spring.config.mix.Fox" p:name="ert" p:color="Black">
+    
+    </bean>
 </beans>

@@ -12,6 +12,7 @@
 		<config>src/main/resources/TigerConfig.xml</config>
 		<config>src/main/resources/MonkeyConfig.xml</config>
 		<config>src/main/resources/DragonConfig.xml</config>
+		<config>src/main/resources/FoxConfig.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
